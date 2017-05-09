@@ -1,0 +1,9 @@
+.field_with_errors {
+    border: 1px solid red;
+    max-width: 300px;
+}
+
+.flash-messages {
+    border: 1px solid green;
+    color: lightgreen;
+}

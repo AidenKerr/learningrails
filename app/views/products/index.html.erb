@@ -1,0 +1,9 @@
+<h1>Products</h1>
+
+<ul>
+    <% for product in @products %>
+        <li> <%= product.title %> <%= number_to_currency(product.display_price) %> <%= link_to 'edit', edit_product_path(product) %></li>
+    <% end %>
+</ul>
+
+<%= link_to 'add a new product', new_product_path %>

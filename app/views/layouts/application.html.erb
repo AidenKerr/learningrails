@@ -8,6 +8,14 @@
 </head>
 <body>
 
+<h1>Super Duper Product System</h1>
+
+<% if flash[:notice] %>
+  <div class="flash-messages">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+
 <%= yield %>
 
 </body>

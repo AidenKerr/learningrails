@@ -1,0 +1,5 @@
+<h1>Edit Product</h1>
+
+<%= render "shared/error_messages", object: @product %>
+
+<%= render "form" %> or <%= link_to 'delete', product_path(@product), method: :delete, data: { confirm: "Are you sure?" } %>
